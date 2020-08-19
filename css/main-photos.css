@@ -1,0 +1,31 @@
+.photosg{
+    width: 100%;
+    padding-top: 150px;
+    margin: auto;
+    overflow: hidden;
+}
+.photos-centered{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.photosg img{
+    max-width: 500px;
+    padding: 3px;
+}
+.view-more-article{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.view-more-article a{
+    text-decoration: none;
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+@media (max-width:1200px){
+    .photosg img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,96 @@
+body{
+    background: whitesmoke;
+    background-image: url(../img/about-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-centered-center{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.about-banner{
+    width: 100%;
+    height: 570px;
+    background-image: url(../img/about-hero.jpg);
+    background-size: cover;
+}
+.about-banner-centered{
+    width: 70%;
+    margin: auto;
+}
+.about-banner-centered p{
+    color: #fff;
+    font-size: 50px;
+    font-family: big-caslon,serif;
+    padding-top: 300px;
+    width: 60%;
+}
+.box-l-c{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+.box-centered{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.box-l-c p{
+    font-size: 17px;
+    color: #555555;
+    font-family: Helvetica, sans-serif;
+}
+.sponsor img{
+    width: 180px;
+}
+.info{
+    width: 60%;
+}
+.info p{
+    line-height: 40px;
+    padding-top: 50px;
+}
+.sponsor-centered{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sponsor-centered img{
+    padding: 15px;
+}
+@media (max-width:1240px){
+    .about-banner-centered p{
+        font-size: 40px;
+    }
+    .box-centered{
+        width: 90%;
+    }
+    .sponsor-centered img{
+        width: 160px;
+    }
+}
+@media (max-width:800px){
+    .about-banner-centered p{
+        font-size: 30px;
+        padding-top: 330px;
+    }
+    .sponsor-centered img{
+        width: 140px;
+    }
+    .box-centered iframe{
+        width: 280px;
+    }
+}
+@media (max-width:600px){
+    .about-banner-centered p{
+        font-size: 30px;
+        padding-top: 200px;
+    }
+    .sponsor-centered img{
+        width: 120px;
+    }
+}

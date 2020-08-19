@@ -1,0 +1,32 @@
+
+.circle-logotipo{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 7px;
+}
+.logotipo a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+@media (max-width:600px){
+    .logotipo{
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .circle-logotipo{
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        font-size: 17px;
+    }
+}
