@@ -48,6 +48,7 @@ footer{
     height: 100px;
     position: absolute;
     bottom: 0;
+    margin-top:15px;
 }
 .footer-centered{
     width: 70%;
